@@ -34,6 +34,16 @@ func TestKeywords_Clone(t *testing.T) {
 			visit:     10,
 			UpdatedAt: &now,
 		},
+		{
+			word:      "testB",
+			visit:     10,
+			UpdatedAt: &now,
+		},
+		{
+			word:      "testB",
+			visit:     10,
+			UpdatedAt: &now,
+		},
 	}
 
 	got := words.Clone(updatedWords)

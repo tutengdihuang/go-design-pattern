@@ -13,3 +13,4 @@ func init() {
 func GetInstance() *Singleton {
 	return singleton
 }
+
