@@ -45,7 +45,7 @@ type Observer1 struct{}
 
 // Update 实现观察者接口
 func (Observer1) Update(msg string) {
-	fmt.Printf("Observer1: %s", msg)
+	fmt.Printf("Observer1: %s\n", msg)
 }
 
 // Observer2 Observer2
@@ -53,5 +53,5 @@ type Observer2 struct{}
 
 // Update 实现观察者接口
 func (Observer2) Update(msg string) {
-	fmt.Printf("Observer2: %s", msg)
+	fmt.Printf("Observer2: %s\n", msg)
 }
