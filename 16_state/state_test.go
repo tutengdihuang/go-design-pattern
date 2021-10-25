@@ -7,7 +7,7 @@ import (
 )
 
 func TestMachine_GetStateName(t *testing.T) {
-	m := &Machine{state: GetLeaderApproveState()}
+	m := &Machine{ GetLeaderApproveState()}
 	assert.Equal(t, "LeaderApproveState", m.GetStateName())
 	m.Approval()
 	assert.Equal(t, "FinanceApproveState", m.GetStateName())

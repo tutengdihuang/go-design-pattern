@@ -10,25 +10,25 @@ import "fmt"
 
 // Machine 状态机
 type Machine struct {
-	state IState
+	IState
 }
 
 // SetState 更新状态
 func (m *Machine) SetState(state IState) {
-	m.state = state
+	m.IState = state
 }
 
 // GetStateName 获取当前状态
 func (m *Machine) GetStateName() string {
-	return m.state.GetName()
+	return m.IState.GetName()
 }
 
 func (m *Machine) Approval() {
-	m.state.Approval(m)
+	m.IState.Approval(m)
 }
 
 func (m *Machine) Reject() {
-	m.state.Reject(m)
+	m.IState.Reject(m)
 }
 
 // IState 状态
