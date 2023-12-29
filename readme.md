@@ -1,8 +1,6 @@
 # go-design-pattern
 
-更多系列文章可以扫描下方二维码关注博主
 
-![微信公众号](https://mohuishou-blog-sz.oss-cn-shenzhen.aliyuncs.com/custom/wechat_white.png)
 
 ## 总结
 
